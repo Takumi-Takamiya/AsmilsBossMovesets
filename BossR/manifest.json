@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Asmil's Boss movesets R",
+      "description": "!!",
+      "version": [1, 0, 3],
+      "min_engine_version": [1, 13, 0],
+      "uuid": "6ba5e752-8440-4914-bcb6-f59b46995c6f"
+    },
+    "modules": [
+      {
+        "type": "resources",
+        "description": "",
+        "version": [1, 0, 3],
+        "uuid": "759d441c-13d5-4e96-bd56-7d51c74647ed"
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Asmil's Boss movesets B",
+      "description": "",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 13, 0],
+      "uuid": "83445b47-4cd4-4488-aeb5-c697db9501b8"
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "69bb769b-2511-4419-b01d-aac4bd82654e"
+      },
+      {
+        "type": "client_data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "fee3c03c-cac8-4067-95bd-ffb58e8334b8"
+      }
+    ]
+  }
