@@ -1,0 +1,12 @@
+{
+    "resource_pack_name": "Asmil's Boss movesets R",
+    "texture_name": "atlas.items",
+    "texture_data": {
+      "pet_shulker": {
+        "textures": "textures/asmilboss/pet_shulker"
+      },
+      "spear_of_the_church": {
+        "textures": "textures/asmilboss/spear_of_the_church"
+      }
+    }
+  }

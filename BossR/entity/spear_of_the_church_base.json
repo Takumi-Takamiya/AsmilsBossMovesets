@@ -1,0 +1,16 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "asmilboss:spear_of_the_church_base",
+        "materials": { "default": "entity" },
+        "textures": {
+          "default": "textures/asmilboss/spear/anim"
+        },
+        "geometry": {
+          "default": "geometry.spear_of_the_church_anim"
+        },
+        "render_controllers": [ "controller.render.bossdef" ]
+      }
+    }
+  }

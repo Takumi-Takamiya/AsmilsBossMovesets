@@ -1,0 +1,85 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "asmilboss:spear_of_the_church_base",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "asmilboss:inactive": {
+                "minecraft:timer": {
+                    "looping": false,
+                    "time": 3.0,
+                    "time_down_event": {
+                        "event": "asmilboss:activate"
+                    }
+                }
+            },
+          "asmilboss:active": {
+            "minecraft:timer": {
+              "looping": false,
+              "time": 10.0,
+              "time_down_event": {
+                "event": "asmilboss:desp"
+              }
+            }
+          },
+          "asmilboss:desp": {
+            "minecraft:instant_despawn":{} 
+          } 
+        },
+        "components": {
+            "minecraft:is_hidden_when_invisible": {},
+            "minecraft:type_family": {
+                "family": [
+                    "shulker",
+                    "monster",
+                    "mob"
+                ]
+            },
+            "minecraft:breathable": {
+                "total_supply": 1500,
+                "suffocate_time": 0
+            },
+            "minecraft:conditional_bandwidth_optimization": {
+                "default_values": {
+                    "max_optimized_distance": 80.0,
+                    "max_dropped_ticks": 10,
+                    "use_motion_prediction_hints": true
+                }
+            },
+            "minecraft:health": {
+                "value": 30,
+                "max": 30
+            },
+            "minecraft:movement": {
+                "value": 0.0,
+                "max": 0.0
+            },
+            "minecraft:physics": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "asmilboss:inactive"
+                    ]
+                }
+            },
+            "asmilboss:activate": {
+                "add": {
+                    "component_groups": [
+                        "asmilboss:active"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "asmilboss:inactive"
+                    ]
+                }
+            }
+        }
+    }
+}

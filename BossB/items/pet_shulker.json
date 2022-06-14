@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "asmilboss:pet_shulker",
+        "category": "Equipment"
+      },
+  
+      "components": {
+        "minecraft:icon": {
+          "texture": "pet_shulker"
+        },
+        "minecraft:on_use":{
+            "on_use":{
+                "event":"asmilboss:summon"
+            }
+        }
+      },
+      "events": {
+        "asmilboss:summon": {
+            "run_command":{
+                "command":"ride @p summon_rider asmilboss:floating_shulker",
+                "target":"self"
+            }
+        }
+      }
+    }
+  }

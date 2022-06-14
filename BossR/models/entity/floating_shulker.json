@@ -1,0 +1,37 @@
+{
+    "format_version": "1.8.0",
+    "geometry.floating_shulker": {
+      "visible_bounds_width": 3,
+      "visible_bounds_height": 3,
+      "visible_bounds_offset": [ 0, 0.5, 0 ],
+      "texturewidth": 32,
+      "textureheight": 32,
+      "bones": [
+        {
+          "name": "lid",
+          "parent": "base",
+          "pivot": [ 0.0, 0.0, 0.0 ],
+          "cubes": [
+          ]
+        },
+        {
+          "name": "base",
+          "pivot": [ 0.0, 0.0, 0.0 ],
+          "cubes": [
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "base",
+          "pivot": [ 0.0, 12.0, 0.0 ],
+          "cubes": [
+            {
+              "origin": [ -3.0, 6.0, -3.0 ],
+              "size": [ 6.0, 6.0, 6.0 ],
+              "uv": [ 0, 0 ]
+            }
+          ]
+        }
+      ]
+    }
+  }

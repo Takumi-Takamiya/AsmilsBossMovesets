@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.spear_of_the_church_spear",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-10, -5, -4],
+							"size": [14, 14, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [-57.11408, -4.08274, 35.69244],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-30, 30]},
+								"east": {"uv": [0, 0], "uv_size": [0, 16]},
+								"south": {"uv": [2, 0], "uv_size": [30, 30]},
+								"west": {"uv": [0, 0], "uv_size": [0, 16]},
+								"up": {"uv": [16, 0], "uv_size": [-16, 0]},
+								"down": {"uv": [16, 0], "uv_size": [-16, 0]}
+							}
+						},
+						{
+							"origin": [-14, -2, -1],
+							"size": [16, 16, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [22.5, 0, 30],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-32, 32]},
+								"east": {"uv": [0, 0], "uv_size": [0, 16]},
+								"south": {"uv": [0, 0], "uv_size": [32, 32]},
+								"west": {"uv": [0, 0], "uv_size": [0, 16]},
+								"up": {"uv": [16, 0], "uv_size": [-16, 0]},
+								"down": {"uv": [16, 0], "uv_size": [-16, 0]}
+							}
+						},
+						{
+							"origin": [-14, -3, 0],
+							"size": [14, 14, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [76.73078, 34.4723, 92.95341],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-30, 30]},
+								"east": {"uv": [0, 0], "uv_size": [0, 16]},
+								"south": {"uv": [2, 0], "uv_size": [30, 30]},
+								"west": {"uv": [0, 0], "uv_size": [0, 16]},
+								"up": {"uv": [16, 0], "uv_size": [-16, 0]},
+								"down": {"uv": [16, 0], "uv_size": [-16, 0]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

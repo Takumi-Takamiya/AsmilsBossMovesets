@@ -1,0 +1,49 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "asmilboss:spear_of_the_church",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "spear_of_the_church"
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "asmilboss:summon2"
+        }
+      }
+    },
+    "events": {
+      "asmilboss:summon2": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": "summon creaper ^ ^ ^3",
+              "target": "self"
+            }
+          },
+          {
+            "run_command": {
+              "command": "summon creaper ^ ^ ^6",
+              "target": "self"
+            }
+          },
+          {
+            "run_command": {
+              "command": "summon creaper ^ ^ ^9",
+              "target": "self"
+            }
+          },
+          {
+            "run_command": {
+              "command": "summon creaper ^ ^ ^12",
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

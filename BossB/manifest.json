@@ -13,12 +13,6 @@
         "description": "",
         "version": [1, 0, 0],
         "uuid": "69bb769b-2511-4419-b01d-aac4bd82654e"
-      },
-      {
-        "type": "client_data",
-        "description": "",
-        "version": [1, 0, 0],
-        "uuid": "fee3c03c-cac8-4067-95bd-ffb58e8334b8"
       }
     ]
   }

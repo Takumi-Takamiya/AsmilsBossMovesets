@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "asmilboss:floating_shulker",
+      "materials": { "default": "shulker" },
+      "textures": {
+        "default": "textures/asmilboss/floating_shulker"
+      },
+      "geometry": {
+        "default": "geometry.floating_shulker"
+      },
+      "render_controllers": [ "controller.render.floating_shulker" ]
+    }
+  }
+}

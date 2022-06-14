@@ -1,0 +1,26 @@
+{
+    "format_version" : "1.10.0",
+    "animation_controllers" : {
+        "controller.animation.spear_anim" : {
+            "initial_state" : "default",
+            "states" : {
+                "default" : {
+                    "on_entry": [
+                        "/damage @e[tag=!boss,r=2] 4"
+                     ],
+                    "transitions" : [
+                        { "damage" : "(0.5)"}
+                    ]
+                },
+                "damage" : {
+                    "on_entry": [
+                        "/damage @e[tag=!boss,r=2] 4"
+                     ],
+                    "transitions" : [
+                        { "default" : "(0.5)" }
+                    ]
+                }
+            }
+        }
+    }
+}
